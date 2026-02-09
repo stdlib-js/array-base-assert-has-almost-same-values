@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import hasAlmostSameValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-has-almost-same-values@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-assert-has-almost-same-values/tags). For example,
+
+```javascript
 import hasAlmostSameValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-has-almost-same-values@v0.1.1-esm/index.mjs';
 ```
 
@@ -101,7 +106,7 @@ var bool = hasAlmostSameValues( x, y, 1 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
-import hasAlmostSameValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-has-almost-same-values@v0.1.1-esm/index.mjs';
+import hasAlmostSameValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-has-almost-same-values@esm/index.mjs';
 
 var buf = uniform( 10, 0, 10 );
 // returns <Float64Array>
